@@ -1,0 +1,40 @@
+.experience-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 481px;
+
+  &__img{
+    position: relative;
+    left: 48px;
+    width: 579px;
+    height: 386px;
+  }
+
+  &__container{
+    position: relative;
+    right: 48px;
+    height: 12em;
+  }
+
+  &__top{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    margin-bottom: 5px;
+    color: rgb(166, 168, 173);
+    text-align: right;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    text-align: right;
+  }
+
+  &__parag {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 18px;
+    text-align: right;
+  }
+}

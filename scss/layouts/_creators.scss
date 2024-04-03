@@ -1,0 +1,54 @@
+.creators{
+  height: 753px;
+
+  &__title{
+    position: absolute;
+    top: 2906px;
+    left: 48px;
+  }
+
+  &__container{
+    display: flex;
+    position: relative;
+    top: 180px;
+    justify-content: center;
+    gap: 11px;
+  }
+
+  &__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 361px;
+    height: 453px;
+    border-radius: 8px;
+    background-color: rgb(248, 248, 248);
+
+    &__img{
+      position: relative;
+      top: 32px;
+      width: 223px;
+      height: 223px;
+    }
+
+    &__comment{
+      position: absolute;
+      font-weight: 600;
+      top: 285px;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.3px;
+      color: rgb(0, 0, 0);
+    }
+
+    &__name{
+      align-self: self-start;
+      position: absolute;
+      top: 401px;
+      margin-left: 32px;
+      font-size: 14px;
+      line-height: 20px;
+      color: rgb(118, 118, 118);
+    }
+  }
+}

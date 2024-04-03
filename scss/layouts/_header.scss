@@ -1,0 +1,66 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 23px 19px 20px;
+
+  &__logo{
+    width: 97px;
+    height: 30px;
+    margin-right: 9px;
+    cursor: pointer;
+  }
+
+  &__nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__item{
+      font-size: 16px;
+      line-height: 20px;
+      color: rgb(166, 168, 173);
+      transition: color .3s ease;
+
+      &:hover{
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+
+  &__account{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__login{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(166, 168, 173);
+    transition: color .3s ease;
+  
+    &:hover {
+      color: rgb(255, 255, 255);
+      }
+    }
+
+    &__signUp{
+      width: 95px;
+      height: 35px;
+      border: rgb(255, 255, 255) solid 1px;
+      border-radius: 32px;
+      font-size: 16px;
+      line-height: 18.4px;
+      color: rgb(18, 18, 20);
+      transition: background-color .3s ease, 
+      color .3s, border .3s;
+      cursor: pointer;
+
+      &:hover{
+        border: rgb(166, 168, 173) solid 1px;
+        background-color: rgb(166, 168, 173);
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}

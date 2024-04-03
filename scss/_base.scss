@@ -1,0 +1,39 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(18, 18, 20);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: rgb(255, 255, 255);
+}
+
+h2{
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h2, h3{
+  color: rgb(255, 255, 255);
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}

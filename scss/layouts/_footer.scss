@@ -1,0 +1,69 @@
+.footer{
+  height: 475px;
+  overflow: hidden;
+
+  &__nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+
+    &__title{
+      font-size: 20px;
+      line-height: 24px;
+      color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+    &__title >:first-child{
+      margin-top: 1px;
+    }
+
+    &__item{
+      font-size: 14px;
+      line-height: 18px;
+      color: rgb(166, 168, 173);
+      transition: color .3s ease;
+      
+        &:hover {
+          color: rgb(255, 255, 255);
+        }
+      }
+    }
+
+    &__address{
+      display: flex;
+      position: relative;
+      top: 83px;
+      left: 95px;
+
+      &__rights{
+        font-size: 14px;
+        line-height: 18px;
+        color: rgb(166, 168, 173);
+        margin-right: 48px;
+      }
+
+      &__list{
+        display: flex;
+        gap: 24px;
+
+        &__item{
+          font-size: 14px;
+          line-height: 18px;
+          color: rgb(166, 168, 173);
+          transition: color .3s ease;
+        
+          &:hover {
+            color: rgb(255, 255, 255);
+          }
+        }
+
+        &__img{
+          width: 16px;
+          height: 16px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
